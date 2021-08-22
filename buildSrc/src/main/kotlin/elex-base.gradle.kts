@@ -15,8 +15,8 @@ repositories {
 java {
 	withSourcesJar()
 	withJavadocJar()
-	sourceCompatibility = org.gradle.api.JavaVersion.VERSION_1_8
-	targetCompatibility = org.gradle.api.JavaVersion.VERSION_1_8
+	sourceCompatibility = org.gradle.api.JavaVersion.VERSION_11
+	targetCompatibility = org.gradle.api.JavaVersion.VERSION_11
 }
 
 configurations {
@@ -54,7 +54,7 @@ tasks.javadoc {
 dependencies {
 	implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 	implementation("org.slf4j:slf4j-api:1.7.30")
-	implementation("org.jetbrains:annotations:21.0.1")
+	implementation("org.jetbrains:annotations:22.0.0")
 
 	compileOnly("org.projectlombok:lombok:1.18.20")
 	annotationProcessor("org.projectlombok:lombok:1.18.20")

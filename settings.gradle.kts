@@ -1,2 +1,2 @@
 rootProject.name = "javafx-examples"
-include("lib", "app")
+include("fxml")
