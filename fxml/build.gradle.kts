@@ -1,3 +1,10 @@
+/*
+ * JavaFx Examples
+ *
+ * Copyright (c) 2021. Elex. All Rights Reserved.
+ * https://www.elex-project.com/
+ */
+
 plugins {
     id("elex-application")
     id("org.openjfx.javafxplugin") version "0.0.10"

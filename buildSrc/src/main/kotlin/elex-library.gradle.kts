@@ -1,5 +1,3 @@
-import gradle.kotlin.dsl.accessors._496219b122f87f8abbd64d1094d3f5b6.jar
-
 plugins {
 	id ("elex-base")
 	`java-library`
