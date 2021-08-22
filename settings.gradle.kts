@@ -1,2 +1,2 @@
-rootProject.name = "tmpl-java-multiproject"
+rootProject.name = "javafx-examples"
 include("lib", "app")
